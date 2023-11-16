@@ -61,7 +61,7 @@ public class RagitbotAdvanced {
         breakbutton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 isSpamming = false;
-                resultLabel.setText("Spamming stopped!");
+                resultLabel.setText("Spamming stopped");
             }
         
         });
